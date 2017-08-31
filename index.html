@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Задане для Яндекс академии по Node.js</title>
+</head>
+<body>
+
+<div>
+	<h3>Задане для Яндекс Академии по Node.js</h3>
+	<form id="myForm" action="data/success.json">
+		<style type="text/css" scoped>
+			input {
+			  border: 1px solid gray;
+			}
+			input.error {
+			  border: 1px solid red;
+			}
+		</style>
+		<p>
+			<label for="fio">ФИО: </label>
+			<br>
+			<input type="text" id="fio" name="fio" placeholder="фио"/></p>
+		<p>
+			<label for="email">Email: </label>
+			<br>
+			<input type="email" id="email" name="email" placeholder="email"/>
+		</p>
+		<p>
+			<label for="phone">Телефон: </label>
+			<br>
+			<input type="tel" id="phone" name="phone" placeholder="телефон"/>
+		</p>
+		<button id="submitButton">Отправить</button>
+		<div id="resultContainer"/>
+	</form>
+	<script src="index.js"></script>
+</div>
+</body>
+</html>
